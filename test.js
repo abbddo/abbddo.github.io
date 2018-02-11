@@ -33,7 +33,7 @@ function draw() {
     textSize(20);
     fill(255);
     strokeWeight(3);
-    text("" + crank.getAngle(), 100, 100);
+    text("θ = " + crank.getAngle(), 100, 100);
     text("A", center.x, center.y + 20);
     text("B", crank.p.x, crank.p.y - 20);
     strokeWeight(1);
